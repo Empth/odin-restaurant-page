@@ -11,6 +11,11 @@ ol[role="list"], ul[role="list"] {
   padding-inline: 0;
 }
 
+a {
+    margin: 0;
+    padding: 0;
+}
+
 h1, h2, h3, h4, h5 {
   font-size: inherit;
   font-weight: inherit;
@@ -92,7 +97,20 @@ img.food-img {
     padding-bottom: 50px;
 }
 
-.panel.panel-one {
+.panel {
     justify-content: center;
     gap: 20%;
+}
+
+.menu > li {
+    font-size: 20px;
+    padding: 8px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contact > * {
+    margin: 10px;
 }
