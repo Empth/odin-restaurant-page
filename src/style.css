@@ -2,7 +2,97 @@
     box-sizing: border-box;
 }
 
+h1, h2, h3, h4, h5, figure, p, ol, ul {
+  margin: 0;
+}
+
+ol[role="list"], ul[role="list"] {
+  list-style: none;
+  padding-inline: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
 body {
-  background-color: black;
-  color: white;
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+#content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+img.food-img {
+    height: 200px;
+}
+
+.name {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.panel {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.panel > p {
+    align-self: center;
+    font-size: 20px;
+}
+
+.headline > p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.panel-three {
+    padding-bottom: 50px;
+}
+
+.panel.panel-one {
+    justify-content: center;
+    gap: 20%;
 }
