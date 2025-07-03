@@ -7,7 +7,7 @@ function homeMenu() {
     const contentDiv = document.querySelector("#content");
     const title = Object.assign(
         document.createElement("h1"),
-        {className: "name", textContent: "Trallallero Trallalà"}     
+        {className: "name", textContent: "Tralalero Tralalà"}     
     );
     const headlineDiv = Object.assign(
         document.createElement("div"),

@@ -23,7 +23,7 @@ function contact() {
     };
 
     contactDiv.append(
-        Object.assign(document.createElement("p"), {textContent: "Email: tralalelo@cook.li"}),
+        Object.assign(document.createElement("p"), {textContent: "Email: tralalero@cook.li"}),
         Object.assign(document.createElement("p"), {textContent: "Phone: 222-666-7777"}),
         Object.assign(document.createElement("a"), {textContent: "Give us feedback", href: ""}),
     );
